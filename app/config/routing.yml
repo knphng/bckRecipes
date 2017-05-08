@@ -1,0 +1,11 @@
+app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    type: annotation
+
+recipes:
+    type:     rest
+    resource: AppBundle\Controller\RecipeController
+
+folders:
+    type:     rest
+    resource: AppBundle\Controller\FolderController
