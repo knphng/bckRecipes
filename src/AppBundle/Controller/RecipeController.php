@@ -1,5 +1,4 @@
 <?php
-
 namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -129,7 +128,7 @@ class RecipeController extends Controller
 
     /**
      * @Rest\View()
-     * @Rest\PUT("/recipe/edit/{id}")
+     * @Rest\Put("/recipe/edit/{id}")
      */
     public function updateRecipeAction(Request $request)
     {
